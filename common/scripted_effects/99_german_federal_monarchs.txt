@@ -159,7 +159,7 @@ GER_character_generate_prussia_federal_monarch = { # Owner = country, ROOT = pre
 					role = character_role_politician
 					holding_type = building_manor_house
 					on_created = {
-						set_variable = house_hohenzollern
+						set_variable = { name = dynasty_var value = flag:house_hohenzollern }
 						set_variable = { name = ger_federal_monarch_var value = s:STATE_BRANDENBURG }
 						add_career_length = {
 							role = character_role_politician
@@ -182,7 +182,7 @@ GER_character_generate_prussia_federal_monarch = { # Owner = country, ROOT = pre
 					role = character_role_politician
 					holding_type = building_manor_house
 					on_created = {
-						set_variable = house_hohenzollern
+						set_variable = { name = dynasty_var value = flag:house_hohenzollern }
 						set_variable = { name = ger_federal_monarch_var value = s:STATE_BRANDENBURG }
 						add_career_length = {
 							role = character_role_politician
@@ -205,7 +205,7 @@ GER_character_generate_prussia_federal_monarch = { # Owner = country, ROOT = pre
 					role = character_role_politician
 					holding_type = building_manor_house
 					on_created = {
-						set_variable = house_hohenzollern
+						set_variable = { name = dynasty_var value = flag:house_hohenzollern }
 						set_variable = { name = ger_federal_monarch_var value = s:STATE_BRANDENBURG }
 						add_career_length = {
 							role = character_role_politician
@@ -228,7 +228,7 @@ GER_character_generate_prussia_federal_monarch = { # Owner = country, ROOT = pre
 					role = character_role_politician
 					holding_type = building_manor_house
 					on_created = {
-						set_variable = house_hohenzollern
+						set_variable = { name = dynasty_var value = flag:house_hohenzollern }
 						set_variable = { name = ger_federal_monarch_var value = s:STATE_BRANDENBURG }
 						add_career_length = {
 							role = character_role_politician
@@ -251,7 +251,8 @@ GER_character_generate_prussia_federal_monarch = { # Owner = country, ROOT = pre
 					role = character_role_politician
 					holding_type = building_manor_house
 					on_created = {
-						set_variable = house_hohenzollern
+						set_variable = { name = dynasty_var value = flag:house_hohenzollern }
+
 						set_variable = { name = ger_federal_monarch_var value = s:STATE_BRANDENBURG }
 						add_career_length = {
 							role = character_role_politician
@@ -274,7 +275,7 @@ GER_character_generate_prussia_federal_monarch = { # Owner = country, ROOT = pre
 					role = character_role_politician
 					holding_type = building_manor_house
 					on_created = {
-						set_variable = house_hohenzollern
+						set_variable = { name = dynasty_var value = flag:house_hohenzollern }
 						set_variable = { name = ger_federal_monarch_var value = s:STATE_BRANDENBURG }
 						add_career_length = {
 							role = character_role_politician
@@ -297,7 +298,7 @@ GER_character_generate_prussia_federal_monarch = { # Owner = country, ROOT = pre
 					role = character_role_politician
 					holding_type = building_manor_house
 					on_created = {
-						set_variable = house_hohenzollern
+						set_variable = { name = dynasty_var value = flag:house_hohenzollern }
 						set_variable = { name = ger_federal_monarch_var value = s:STATE_BRANDENBURG }
 						add_career_length = {
 							role = character_role_politician

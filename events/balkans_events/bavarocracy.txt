@@ -382,9 +382,9 @@ bavarocracy_events.2 = {
 				c:FRA ?= {
 					ruler = {
 						NOR = {
-							has_variable = legitimist_leader
-							has_variable = house_orleans
-							has_variable = house_bonaparte
+							var:dynasty_var ?= flag:legitimist_leader
+							var:dynasty_var ?= flag:house_orleans
+							var:dynasty_var ?= flag:house_bonaparte
 						}
 					}
 				}
@@ -397,7 +397,7 @@ bavarocracy_events.2 = {
 			limit = {
 				c:FRA ?= {
 					ruler = {
-						has_variable = legitimist_leader
+						var:dynasty_var ?= flag:legitimist_leader
 					}
 				}
 			}
@@ -419,7 +419,7 @@ bavarocracy_events.2 = {
 			limit = {
 				c:FRA ?= {
 					ruler = {
-						has_variable = house_orleans
+						var:dynasty_var ?= flag:house_orleans
 					}
 				}
 			}
@@ -435,7 +435,7 @@ bavarocracy_events.2 = {
 			limit = {
 				c:FRA ?= {
 					ruler = {
-						has_variable = house_bonaparte
+						var:dynasty_var ?= flag:house_bonaparte
 					}
 				}
 			}

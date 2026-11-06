@@ -1,4 +1,5 @@
-﻿belgium_generate_scripted_heirs = {
+﻿# dynasty_var values: flag:house_[name]
+belgium_generate_scripted_heirs = {
 	if = {
 		limit = {
 			game_date >= 1859.6.12

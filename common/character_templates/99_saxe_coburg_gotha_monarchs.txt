@@ -9,7 +9,7 @@
 	ideology = ideology_royalist
 	home_region = STATE_SAXONY
 	on_created = {
-		set_variable = house_saxe_coburg_gotha
+		set_variable = { name = dynasty_var value = flag:house_saxe_coburg_gotha }
 	}
 }
 
@@ -28,6 +28,6 @@ COB_charles_edward_von_sachsen_coburg_gotha = {
 		basic_diplomat
 	}
 	on_created = {
-		set_variable = house_saxe_coburg_gotha
+		set_variable = { name = dynasty_var value = flag:house_saxe_coburg_gotha }
 	}
 }

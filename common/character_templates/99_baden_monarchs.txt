@@ -4,7 +4,7 @@
 	last_name = "von_Baden"
 	historical = yes
 	noble = yes
-	culture = primary_culture
+	culture = cu:south_german
 	religion = rel:protestant
 	age = 46
 	interest_group = ig_intelligentsia
