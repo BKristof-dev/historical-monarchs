@@ -1,0 +1,190 @@
+﻿INSERT:ACE = {
+	regnal_numbers = {
+		Alauddin_Mahmud = 2
+	}
+}
+
+INSERT:ANK = {
+	regnal_numbers = {
+		Ntare = 5
+		Kahaya = 2
+		Gasiyonga = 2
+	}
+}
+
+INSERT:BUG = {
+	regnal_numbers = {
+		Suuna = 2
+		Mwanga = 2
+		Daudi_Cwa = 2
+	}
+}
+
+INSERT:BGI = {
+	regnal_numbers = {
+		_Uthman_Burkomanda = 3
+		_Abdul_Qadir = 2
+		Mohammed = 4
+		Abd_al-Rahman_Gaourang = 2
+	}
+}
+
+INSERT:BNY = {
+	regnal_numbers = {
+		Nyabongo = 2
+		Olimi = 5
+		Kyebambe = 4
+		Duhaga = 2
+		Winyi = 4
+	}
+}
+
+INSERT:BEN = {
+	regnal_numbers = {
+		Eweka = 2
+	}
+}
+
+INSERT:BRU = {
+	regnal_numbers = {
+		Omar_Ali = 2
+		Muhammad_Jamalul_Alam = 2
+	}
+}
+
+INSERT:BUL = {
+	regnal_numbers = {
+		Boris = 3
+	}
+}
+
+INSERT:BRD = {
+	regnal_numbers = {
+		Ntare = 4
+		Mwezi = 4
+		Mutaga = 4
+		Mwambutsa = 4
+	}
+}
+
+INSERT:DFR = {
+	regnal_numbers = {
+		Muhammad = 3
+	}
+}
+
+INSERT:ETH = {
+	regnal_numbers = {
+		Tewodros = 2
+		Tekle_Giyorgis = 2
+		Yohannes = 4
+		Menelik = 2
+	}
+}
+
+INSERT:BGM = {
+	regnal_numbers = {
+		Tewodros = 2
+		Tekle_Giyorgis = 2
+	}
+}
+
+INSERT:TGR = {
+	regnal_numbers = {
+		Yohannes = 4
+	}
+}
+
+INSERT:SHW = {
+	regnal_numbers = {
+		Menelik = 2
+	}
+}
+
+INSERT:MLD = {
+	regnal_numbers = {
+		Muhammad_Imaaduddeen = 4
+		Muhammad_Mueenuddeen = 2
+		Muhammad_Shamsuddeen = 3
+		Hassan_Nooraddeen = 2
+	}
+}
+
+INSERT:NOR = {
+	regnal_numbers = {
+		Haakon = 7
+		Olav = 5
+		Carl = 3
+		Karl = 3
+		Christian_Fredrik = 2
+		Fredrik = 7
+		Frederik = 7
+		Christian = 8
+		Hans = 2
+		Johannes = 2
+		Christopher = 2
+		Erik = 4
+		Margaret = 2
+		Magne = 8
+		Sigurd = 3
+		Harald = 5
+		Knud = 2
+	}
+}
+
+INSERT:PAP = {
+	regnal_numbers = {
+		Gregorius = 16
+		Pius = 9
+		Leo = 13
+		Benedictus = 15
+	}
+}
+
+INSERT:RWD = {
+	regnal_numbers = {
+		Yuhi = 4
+		Mutara = 2
+		Kigeli = 4
+		Mibambwe = 4
+	}
+}
+
+INSERT:SCH = {
+	regnal_numbers = {
+		Christian_August = 2
+		Ernst_GU_nther = 2
+		Frederik = 6
+		Christian = 8
+		Karl_Friedrich = 2
+		Hans = 3
+		Johannes = 3
+	}
+}
+
+INSERT:HOL = {
+	regnal_numbers = {
+		Christian_August = 2
+		Ernst_GU_nther = 2
+		Frederik = 6
+		Christian = 8
+		Karl_Friedrich = 2
+		Hans = 3
+		Johannes = 3
+	}
+}
+
+INSERT:SWZ = {
+	regnal_numbers = {
+		Ludvonga = 2
+		Sobhuza = 2
+	}
+}
+
+INSERT:TUN = {
+	regnal_numbers = {
+		Muhammad = 2
+		Ali = 3
+		Ahmad = 2
+	}
+}

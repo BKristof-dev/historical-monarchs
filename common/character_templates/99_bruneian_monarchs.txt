@@ -44,7 +44,7 @@ BRU_ahmad_tajuddin_bolkiah = {
 }
 
 BRU_omar_ali_saifuddien_iii = {
-	first_name = "Omar_Ali_Saifuddien"
+	first_name = "Omar_Ali"
 	last_name = "Bolkiah"
 	historical = yes
 	culture = cu:bornean
