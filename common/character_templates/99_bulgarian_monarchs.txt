@@ -127,7 +127,7 @@ REPLACE:BUL_ferdinand_i = {
 		direct
 	}
 	on_created = {
-		set_variable = house_saxe_coburg_gotha
+		set_variable = { name = dynasty_var value = flag:house_saxe_coburg_gotha }
 	}
 }
 
@@ -150,6 +150,6 @@ REPLACE:BUL_boris_iii = {
 		cautious
 	}
 	on_created = {
-		set_variable = house_saxe_coburg_gotha
+		set_variable = { name = dynasty_var value = flag:house_saxe_coburg_gotha }
 	}
 }

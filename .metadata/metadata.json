@@ -1,10 +1,10 @@
 {
   "name" : "Historical Monarchs",
 	"id" : "historical-monarchs",
-  "version" : "1.7.0",
-  "supported_game_version" : "1.13.*",
+  "version" : "1.8.0",
+  "supported_game_version" : "1.15.*",
   "short_description" : "This mod adds historical succession chains, ruler portraits, government types and narrative events to many countries.",
-  "tags" : ["Historical","Events","Fixes","1.13"],
+  "tags" : ["Historical","Events","Fixes","1.15"],
   "relationships" : [],
   "game_custom_data" : {
     "multiplayer_synchronized" : true

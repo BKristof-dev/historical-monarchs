@@ -1,5 +1,5 @@
 ﻿REPLACE:BAV_ludwig_i_von_bayern = {
-    first_name = "Ludwig_I"
+    first_name = "Ludwig"
     last_name = "von_Bayern"
     historical = yes
 	noble = yes

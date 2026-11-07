@@ -348,7 +348,7 @@ FRA_prince_louis_dorleans_of_conde = {
 		sickly
 	}
 	on_created = {
-		set_variable = house_orleans
+		set_variable = { name = dynasty_var value = flag:house_orleans }
 	}
 }
 FRA_duke_francous_dorleans = {
@@ -366,6 +366,6 @@ FRA_duke_francous_dorleans = {
 		sickly
 	}
 	on_created = {
-		set_variable = house_orleans
+		set_variable = { name = dynasty_var value = flag:house_orleans }
 	}
 }

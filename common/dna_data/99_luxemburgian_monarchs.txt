@@ -115,6 +115,7 @@
 			top_layer={ "no_top_layer" 0 "all_top_layers" 0 }
 			legwear={ "european_legwear" 0 "all_legwear" 0 }
 			headgear={ "generic_headgear" 0 "all_headgear" 0 }
+			gene_asian_east = { "asian_east" 0 "asian_east" 0 }
 		}
     }
     enabled=yes
@@ -237,6 +238,7 @@ dna_grand_duke_adolf = {
 			top_layer={ "no_top_layer" 0 "all_top_layers" 0 }
 			legwear={ "european_legwear" 0 "all_legwear" 0 }
 			headgear={ "generic_headgear" 0 "all_headgear" 0 }
+			gene_asian_east = { "asian_east" 0 "asian_east" 0 }
 		}
     }
     enabled=yes
@@ -359,6 +361,7 @@ dna_grand_duke_william_04 = {
 			top_layer={ "no_top_layer" 0 "all_top_layers" 0 }
 			legwear={ "european_legwear" 0 "all_legwear" 0 }
 			headgear={ "generic_headgear" 0 "all_headgear" 0 }
+			gene_asian_east = { "asian_east" 0 "asian_east" 0 }
 		}
     }
     enabled=yes
@@ -481,6 +484,7 @@ dna_grand_duchess_marie_adelaide = {
 			top_layer={ "no_top_layer" 0 "all_top_layers" 0 }
 			legwear={ "european_legwear" 0 "all_legwear" 0 }
 			headgear={ "generic_headgear" 0 "all_headgear" 0 }
+			gene_asian_east = { "asian_east" 0 "asian_east" 0 }
 		}
     }
     enabled=yes
@@ -603,6 +607,7 @@ dna_grand_duchess_charlotte = {
 			top_layer={ "no_top_layer" 0 "all_top_layers" 0 }
 			legwear={ "european_legwear" 0 "all_legwear" 0 }
 			headgear={ "generic_headgear" 0 "all_headgear" 0 }
+			gene_asian_east = { "asian_east" 0 "asian_east" 0 }
 		}
     }
     enabled=yes
@@ -725,6 +730,7 @@ dna_princess_hilda = {
 			top_layer={ "no_top_layer" 0 "all_top_layers" 0 }
 			legwear={ "european_legwear" 0 "all_legwear" 0 }
 			headgear={ "generic_headgear" 0 "all_headgear" 0 }
+			gene_asian_east = { "asian_east" 0 "asian_east" 0 }
 		}
     }
     enabled=yes
@@ -847,6 +853,7 @@ dna_grand_duke_jean = {
 			top_layer={ "no_top_layer" 0 "all_top_layers" 0 }
 			legwear={ "european_legwear" 0 "all_legwear" 0 }
 			headgear={ "generic_headgear" 0 "all_headgear" 0 }
+			gene_asian_east = { "asian_east" 0 "asian_east" 0 }
 		}
     }
     enabled=yes

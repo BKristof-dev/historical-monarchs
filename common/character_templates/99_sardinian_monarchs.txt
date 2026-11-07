@@ -15,7 +15,7 @@
 		direct	
     }
 	on_created = {
-        set_variable = house_savoy
+        set_variable = { name = dynasty_var value = flag:house_savoy }
     }
 }
 
@@ -35,7 +35,7 @@ SAR_victor_emmanuel_iii = { # Victor Emmanuel III of Italy
 		grifter
     }
 	on_created = {
-        set_variable = house_savoy
+        set_variable = { name = dynasty_var value = flag:house_savoy }
     }
 }
 
@@ -56,6 +56,6 @@ SAR_umberto_ii = { # Umberto II of Italy
 		arrogant
     }
 	on_created = {
-        set_variable = house_savoy
+        set_variable = { name = dynasty_var value = flag:house_savoy }
     }
 }

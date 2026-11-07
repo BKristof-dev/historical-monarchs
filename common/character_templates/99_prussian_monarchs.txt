@@ -17,7 +17,7 @@
     }
     on_created = {
         set_variable = is_married
-		set_variable = house_hohenzollern
+		set_variable = { name = dynasty_var value = flag:house_hohenzollern }
     }
 }
 REPLACE:pru_wilhelm_IV_hohenzollern_template = {
@@ -37,7 +37,7 @@ REPLACE:pru_wilhelm_IV_hohenzollern_template = {
     }
     on_created = {
         set_variable = is_married
-		set_variable = house_hohenzollern
+		set_variable = { name = dynasty_var value = flag:house_hohenzollern }
     }
 }
 
@@ -58,7 +58,7 @@ PRU_wilhelm_I = { # William I of Prussia
     }
     on_created = {
         set_variable = is_married
-		set_variable = house_hohenzollern
+		set_variable = { name = dynasty_var value = flag:house_hohenzollern }
     }
 }
 
@@ -81,7 +81,7 @@ PRU_frederick_iii = { # Frederick III of Prussia
     }
     on_created = {
         set_variable = is_married
-		set_variable = house_hohenzollern
+		set_variable = { name = dynasty_var value = flag:house_hohenzollern }
     }
 }
 
@@ -103,7 +103,7 @@ PRU_wilhelm_II = { # William II of Prussia
     }
     on_created = {
         set_variable = is_married
-		set_variable = house_hohenzollern
+		set_variable = { name = dynasty_var value = flag:house_hohenzollern }
     }
 }
 
@@ -124,7 +124,7 @@ PRU_crown_prince_wilhelm = { # Crown Prince Wilhelm of Prussia
     }
     on_created = {
         set_variable = is_married
-		set_variable = house_hohenzollern
+		set_variable = { name = dynasty_var value = flag:house_hohenzollern }
     }
 }
 
@@ -143,6 +143,6 @@ PRU_prince_wilhelm = { # Prince Wilhelm of Prussia
 		basic_diplomat
     }
 	on_created = {
-		set_variable = house_hohenzollern
+		set_variable = { name = dynasty_var value = flag:house_hohenzollern }
 	}
 }

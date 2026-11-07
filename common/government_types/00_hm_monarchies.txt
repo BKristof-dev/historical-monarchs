@@ -550,6 +550,7 @@ gov_hm_united_principalities = {
 
 gov_hm_danubian_principality = {
 	transfer_of_power = dictatorial
+	uses_regnal_numbers = yes
 
 	male_ruler = "RULER_TITLE_PRINCE"
 	female_ruler = "RULER_TITLE_PRINCESS" # Empty on purpose
@@ -1097,7 +1098,7 @@ gov_hm_crown_land_namiestnik = {
 	transfer_of_power = dictatorial
 
 	male_ruler = "RULER_TITLE_NAMIESTNIK"
-	female_ruler = "RULER_TITLE_NAMIESTNICA"
+	female_ruler = "RULER_TITLE_NAMIESTNIK"
 
 	possible = {
 		is_subject_type = subject_type_crown_land

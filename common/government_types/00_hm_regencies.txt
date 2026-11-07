@@ -1,5 +1,7 @@
 ﻿gov_hm_regency_zaidi_imamate = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
+
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
 
@@ -32,6 +34,7 @@
 
 gov_hm_regency_china = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_EMPRESS_DOWAGER"
@@ -56,6 +59,7 @@ gov_hm_regency_china = {
 
 gov_hm_regency_dalai_lama = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "" # Empty on purpose
@@ -80,6 +84,8 @@ gov_hm_regency_dalai_lama = {
 
 gov_hm_regency_principality = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
+
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
 
@@ -109,6 +115,8 @@ gov_hm_regency_principality = {
 
 gov_hm_regency_principality_constitutional = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
+
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
 
@@ -138,6 +146,8 @@ gov_hm_regency_principality_constitutional = {
 
 gov_hm_regency_electorate = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
+
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
 
@@ -161,6 +171,8 @@ gov_hm_regency_electorate = {
 
 gov_hm_regency_electorate_constitutional = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
+
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
 
@@ -184,6 +196,7 @@ gov_hm_regency_electorate_constitutional = {
 
 gov_hm_regency_sultanate = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -212,6 +225,7 @@ gov_hm_regency_sultanate = {
 
 gov_hm_regency_hereditary_chiefdom = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -235,6 +249,7 @@ gov_hm_regency_hereditary_chiefdom = {
 
 gov_hm_regency_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -265,6 +280,7 @@ gov_hm_regency_monarchy = {
 
 gov_hm_regency_monarchy_constitutional = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -295,6 +311,7 @@ gov_hm_regency_monarchy_constitutional = {
 
 gov_regency_mirate = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -322,6 +339,7 @@ gov_regency_mirate = {
 
 gov_hm_regency_princely_state_mir = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -354,6 +372,7 @@ gov_hm_regency_princely_state_mir = {
 
 gov_hm_regency_princely_state_wali = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -385,6 +404,7 @@ gov_hm_regency_princely_state_wali = {
 
 gov_hm_regency_united_principalities = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -450,6 +470,7 @@ gov_hm_regency_united_principalities = {
 
 gov_hm_regency_swazi_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_NDLOVUKATI"
@@ -477,6 +498,7 @@ gov_hm_regency_swazi_monarchy = {
 
 gov_hm_regency_ashanti_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_ASANTEHEMAA"
@@ -504,6 +526,7 @@ gov_hm_regency_ashanti_monarchy = {
 
 gov_hm_regency_beninese_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_IYOBA"
@@ -531,6 +554,7 @@ gov_hm_regency_beninese_monarchy = {
 
 gov_hm_regency_dahomey_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -558,6 +582,7 @@ gov_hm_regency_dahomey_monarchy = {
 
 gov_hm_regency_mwami = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -586,6 +611,7 @@ gov_hm_regency_mwami = {
 
 gov_hm_regency_basuto_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -613,6 +639,7 @@ gov_hm_regency_basuto_monarchy = {
 
 gov_hm_regency_paramount_chiefdom = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_RESIDENT_COMISSIONER"
 	female_ruler = "RULER_TITLE_RESIDENT_COMISSIONER"
@@ -645,6 +672,7 @@ gov_hm_regency_paramount_chiefdom = {
 
 gov_hm_regency_baganda_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -671,6 +699,7 @@ gov_hm_regency_baganda_monarchy = {
 
 gov_hm_regency_banyoro_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -697,6 +726,7 @@ gov_hm_regency_banyoro_monarchy = {
 
 gov_hm_regency_ankole_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -723,6 +753,7 @@ gov_hm_regency_ankole_monarchy = {
 
 gov_hm_regency_sarauta = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -750,6 +781,7 @@ gov_hm_regency_sarauta = {
 
 gov_hm_regency_bagirmi_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -776,6 +808,7 @@ gov_hm_regency_bagirmi_monarchy = {
 
 gov_hm_regency_bornu_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -802,6 +835,7 @@ gov_hm_regency_bornu_monarchy = {
 
 gov_hm_regency_bambara_monarchy = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -829,6 +863,7 @@ gov_hm_regency_bambara_monarchy = {
 
 gov_hm_regency_oyo_empire = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"
@@ -855,6 +890,7 @@ gov_hm_regency_oyo_empire = {
 
 gov_hm_regency_sultanate_wad = {
 	transfer_of_power = hereditary
+	uses_regnal_numbers = no
 	
 	male_ruler = "RULER_TITLE_REGENT"
 	female_ruler = "RULER_TITLE_REGENT"

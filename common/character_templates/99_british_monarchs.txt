@@ -17,7 +17,7 @@
         inexperienced
     }
 	on_created = {
-		set_variable = house_saxe_coburg_gotha
+		set_variable = { name = dynasty_var value = flag:house_saxe_coburg_gotha }
 	}
 }
 REPLACE:gbr_george_v_template = {
@@ -38,7 +38,7 @@ REPLACE:gbr_george_v_template = {
         inexperienced
     }
 	on_created = {
-		set_variable = house_saxe_coburg_gotha
+		set_variable = { name = dynasty_var value = flag:house_saxe_coburg_gotha }
 	}
 }
 
@@ -64,6 +64,6 @@ GBR_edward_viii = { # Edward VIII of the United Kingdom
 		reckless
 	}
 	on_created = {
-		set_variable = house_saxe_coburg_gotha
+		set_variable = { name = dynasty_var value = flag:house_saxe_coburg_gotha }
 	}
 }

@@ -1,0 +1,391 @@
+﻿REPLACE:ACE = {
+	color = { 73  152  76 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	capital = STATE_ACEH
+	cultures = { sumatran }
+	is_named_from_capital = yes
+
+	regnal_numbers = {
+		Alauddin_Mahmud = 2
+	}
+}
+
+REPLACE:ANK = {
+	color = { 126 162 98 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { baganda lacustrine_bantu }
+	capital = STATE_UGANDA
+
+	regnal_numbers = {
+		Ntare = 5
+		Kahaya = 2
+		Gasiyonga = 2
+	}
+}
+
+REPLACE:BUG = {
+	color = { 21 21 227 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { baganda }
+	capital = STATE_UGANDA
+
+	regnal_numbers = {
+		Suuna = 2
+		Mwanga = 2
+		Daudi_Cwa = 2
+	}
+}
+
+REPLACE:BGI = {
+	color = { 64 124 157 }
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { baguirmi }
+	capital = STATE_WADDAI
+
+	regnal_numbers = {
+		_Uthman_Burkomanda = 3
+		_Abdul_Qadir = 2
+		Mohammed = 4
+		Abd_al-Rahman_Gaourang = 2
+	}
+}
+
+REPLACE:BNY = {
+	color = { 174 24 66 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { baganda lacustrine_bantu }
+	capital = STATE_UGANDA
+
+	regnal_numbers = {
+		Nyabongo = 2
+		Olimi = 5
+		Kyebambe = 4
+		Duhaga = 2
+		Winyi = 4
+	}
+}
+
+REPLACE:BEN = {
+	color = { 110 173 129 }
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { edo }
+	capital = STATE_BENIN
+
+	regnal_numbers = {
+		Eweka = 2
+	}
+}
+
+REPLACE:BRU = {
+	color = { 41  89  174 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { bornean }
+	capital = STATE_NORTH_BORNEO
+
+	regnal_numbers = {
+		Omar_Ali = 2
+		Muhammad_Jamalul_Alam = 2
+	}
+}
+
+REPLACE:BUL = {
+	color = { 116  107  140 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { bulgarian }
+	capital = STATE_BULGARIA
+
+	regnal_numbers = {
+		Boris = 3
+	}
+}
+
+REPLACE:BRD = {
+	color = { 21 191 16 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { rundi }
+	capital = STATE_TANGANYIKA
+
+	regnal_numbers = {
+		Ntare = 4
+		Mwezi = 4
+		Mutaga = 4
+		Mwambutsa = 4
+	}
+}
+
+REPLACE:DFR = {
+	color = { 44 160 70 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { fur bedouin }
+	capital = STATE_DARFUR
+
+	regnal_numbers = {
+		Muhammad = 3
+	}
+}
+
+REPLACE:ETH = {
+	color = { 56  120  191 }
+
+	country_type = unrecognized
+
+	tier = empire
+
+	cultures = { amhara oromo tigray }
+	capital = STATE_GONDER
+
+	regnal_numbers = {
+		Tewodros = 2
+		Tekle_Giyorgis = 2
+		Yohannes = 4
+		Menelik = 2
+	}
+}
+
+REPLACE:BGM = {
+	color = { 228 243 104 }
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { amhara oromo tigray }
+	capital = STATE_AMHARA
+
+	regnal_numbers = {
+		Tewodros = 2
+		Tekle_Giyorgis = 2
+	}
+}
+
+REPLACE:TGR = {
+	color = { 167 218 207 }
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures =  { tigray amhara }
+	capital = STATE_AMHARA
+
+	regnal_numbers = {
+		Yohannes = 4
+	}
+}
+
+REPLACE:SHW = {
+	color = { 1 200 200 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { amhara oromo }
+	capital = STATE_OROMIA
+
+	regnal_numbers = {
+		Menelik = 2
+	}
+}
+
+REPLACE:MLD = {
+	color = { 0 132 61 }
+
+	country_type = unrecognized
+	social_hierarchy = british_indian_caste_system
+
+	religion = sunni
+
+	tier = principality
+
+	capital = STATE_CEYLON
+	cultures = { sinhala }
+
+	regnal_numbers = {
+		Muhammad_Imaaduddeen = 4
+		Muhammad_Mueenuddeen = 2
+		Muhammad_Shamsuddeen = 3
+		Hassan_Nooraddeen = 2
+	}
+}
+
+REPLACE:NOR = {
+	color = { 117  165  188 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures= { norwegian }
+	capital = STATE_EASTERN_NORWAY
+
+	regnal_numbers = {
+		Haakon = 7
+		Olav = 5
+		Carl = 3
+		Karl = 3
+		Christian_Fredrik = 2
+		Fredrik = 7
+		Frederik = 7
+		Christian = 8
+		Hans = 2
+		Johannes = 2
+		Christopher = 2
+		Erik = 4
+		Margaret = 2
+		Magne = 8
+		Sigurd = 3
+		Harald = 5
+		Knud = 2
+	}
+}
+
+REPLACE:PAP = {
+	color = { 211  220  178 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { south_italian north_italian }
+	capital = STATE_LAZIO
+
+	regnal_numbers = {
+		Gregorius = 16
+		Pius = 9
+		Leo = 13
+		Benedictus = 15
+	}
+}
+
+REPLACE:RWD = {
+	color = { 213 160 18 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { ruanda }
+	capital = STATE_TANGANYIKA
+
+	regnal_numbers = {
+		Yuhi = 4
+		Mutara = 2
+		Kigeli = 4
+		Mibambwe = 4
+	}
+}
+
+REPLACE:SCH = {
+	color = { 235  225  95 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { north_german danish }
+	capital = STATE_SCHLESWIG_HOLSTEIN
+	is_named_from_capital = yes
+
+	regnal_numbers = {
+		Christian_August = 2
+		Ernst_GU_nther = 2
+		Frederik = 6
+		Christian = 8
+		Karl_Friedrich = 2
+		Hans = 3
+		Johannes = 3
+	}
+}
+
+REPLACE:HOL = {
+	color = { 220  150  158 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { north_german }
+	capital = STATE_SCHLESWIG_HOLSTEIN
+	is_named_from_capital = yes
+
+	regnal_numbers = {
+		Christian_August = 2
+		Ernst_GU_nther = 2
+		Frederik = 6
+		Christian = 8
+		Karl_Friedrich = 2
+		Hans = 3
+		Johannes = 3
+	}
+}
+
+REPLACE:SWZ = {
+	color = { 255 217 0 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { nguni }
+	capital = STATE_TRANSVAAL
+
+	regnal_numbers = {
+		Ludvonga = 2
+		Sobhuza = 2
+	}
+}
+
+REPLACE:TUN = {
+	color = { 131  101  85 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { maghrebi }
+	capital = STATE_TUNISIA
+	is_named_from_capital = yes
+
+	regnal_numbers = {
+		Muhammad = 2
+		Ali = 3
+		Ahmad = 2
+	}
+}

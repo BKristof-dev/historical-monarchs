@@ -1,135 +1,186 @@
-
+﻿
 ### Tsars
 
 REPLACE:RUS_nicholas_i = { #Nicholas I
 	first_name = Nikolai
 	last_name = Romanov
-	historical = yes
-	culture = primary_culture
-	interest_group = ig_landowners
-	ideology = ideology_traditionalist
-	ruler = yes
-	birth_date = 1796.7.6
-	home_region = STATE_INGRIA
 	dna = dna_rus_nikolai_01
+	historical = yes
+	birth_date = 1796.7.6
+	ruler = yes
+	culture = cu:russian
+	religion = rel:orthodox
+	interest_group = ig_armed_forces
+	ideology = ideology_traditionalist
+	home_region = STATE_INGRIA
 	traits = {
 		arrogant
 		pious
 		imposing
+		engineer
+	}
+	trait_generation = {
+
 	}
 	on_created = {
 		set_variable = is_married
+		set_variable = { name = dynasty_var value = flag:house_romanov }
 	}
- 
 }
 
 REPLACE:RUS_alexander_ii = { #Alexander II, son of Nicholas I
 	first_name = Aleksandr
 	last_name = Romanov
-	historical = yes
-	culture = primary_culture
-	heir = yes
-	birth_date = 1818.4.29
-	home_region = STATE_INGRIA
 	dna = dna_rus_aleksandr_02
+	historical = yes
+	birth_date = 1818.4.29
+	heir = yes
+	culture = cu:russian
+	religion = rel:orthodox
 	interest_group = ig_landowners
-	ideology = ideology_market_liberal
+	ideology = ideology_modernizer_leader
+	home_region = STATE_INGRIA
 	traits = {
 		meticulous
 		romantic
+		basic_diplomat
 	}
- 
+	trait_generation = {
+
+	}
+	on_created = {
+		set_variable = { name = dynasty_var value = flag:house_romanov }
+	}
 }
 
 REPLACE:RUS_alexander_iii = { #Alexander III, second son of Alexander II
 	first_name = Aleksandr
 	last_name = Romanov
-	historical = yes
-	culture = primary_culture
-	heir = yes
-	birth_date = 1845.3.10
-	home_region = STATE_INGRIA
 	dna = dna_rus_aleksandr_03
-	interest_group = ig_landowners
+	historical = yes
+	birth_date = 1845.3.10
+	heir = yes
+	culture = cu:russian
+	religion = rel:orthodox
+	interest_group = ig_armed_forces
 	ideology = ideology_traditionalist
+	home_region = STATE_INGRIA
 	traits = {
 		imposing
 		charismatic
 		bigoted
+		master_bureaucrat
 	}
- 
+	trait_generation = {
+
+	}
+	on_created = {
+		set_variable = { name = dynasty_var value = flag:house_romanov }
+	}
 }
 
 REPLACE:RUS_nicholas_ii = { #Nicholas II, son of Alexander III
 	first_name = Nikolai
 	last_name = Romanov
-	historical = yes
-	culture = primary_culture
-	heir = yes
-	birth_date = 1868.5.18
-	home_region = STATE_INGRIA
 	dna = dna_rus_nikolai_02
-	interest_group = ig_landowners
+	historical = yes
+	birth_date = 1868.5.18
+	heir = yes
+	culture = cu:russian
+	religion = rel:orthodox
+	interest_group = ig_armed_forces
 	ideology = ideology_authoritarian
+	home_region = STATE_INGRIA
 	traits = {
 		imperious
 		pious
+		inept
 	}
- 
+	trait_generation = {
+
+	}
+	on_created = {
+		set_variable = { name = dynasty_var value = flag:house_romanov }
+	}
 }
 
 REPLACE:RUS_george_i = { #Georgy Romanov
 	first_name = Georgy
 	last_name = Romanov
-	historical = yes
-	culture = primary_culture
-	heir = yes
-	birth_date = 1871.5.9
-	home_region = STATE_INGRIA
 	dna = dna_rus_georgy_aleksandrovich
+	historical = yes
+	birth_date = 1871.5.9
+	heir = yes
+	culture = cu:russian
+	religion = rel:orthodox
 	interest_group = ig_armed_forces
 	ideology = ideology_moderate
+	home_region = STATE_INGRIA
 	traits = {
 		erudite
 		basic_naval_commander
 		sickly
+		reserved
+		honorable
 	}
- 
+	trait_generation = {
+
+	}
+	on_created = {
+		set_variable = { name = dynasty_var value = flag:house_romanov }
+	}
 }
 
 REPLACE:RUS_michael_ii = { #Mikhail Romanov
 	first_name = Mikhail
 	last_name = Romanov
-	historical = yes
-	culture = primary_culture
-	heir = yes
-	birth_date = 1878.5.9
-	home_region = STATE_INGRIA
 	dna = dna_rus_mikhail_aleksandrovich
+	historical = yes
+	birth_date = 1878.5.9
+	heir = yes
+	culture = cu:russian
+	religion = rel:orthodox
 	interest_group = ig_landowners
 	ideology = ideology_moderate
+	home_region = STATE_INGRIA
 	traits = {
 		basic_artillery_commander
 		tactful
+		brave
 	}
- 
+	trait_generation = {
+
+	}
+	on_created = {
+		set_variable = { name = dynasty_var value = flag:house_romanov }
+	}
 }
 
 REPLACE:RUS_alexei_ii = { #Alexei Romanov, son of Nicholas II
 	first_name = Alexei
 	last_name = Romanov
-	historical = yes
-	culture = primary_culture
-	heir = yes
-	birth_date = 1904.8.12
-	home_region = STATE_INGRIA
 	dna = dna_rus_aleksei_02
+	historical = yes
+	birth_date = 1904.8.12
+	heir = yes
+	culture = cu:russian
+	religion = rel:orthodox
 	interest_group = ig_landowners
 	ideology = ideology_jingoist_leader
+	home_region = STATE_INGRIA
 	traits = {
-		sickly
-		romantic
+		hemophilia
 		arrogant
+		romantic
+		inexperienced
 	}
- 
+	trait_generation = {
+
+	}
+    on_created = {
+    	set_variable = { name = dynasty_var value = flag:house_romanov }
+    	owner = {
+			trigger_event = { id = rasputin.1 days = 14 popup = yes } # spawn Rasputin
+		}
+    }
 }

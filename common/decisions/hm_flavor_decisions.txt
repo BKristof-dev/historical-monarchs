@@ -5,7 +5,7 @@
 		country_has_non_monarchy_law = no
 		ruler ?= {
 			is_monarch = yes
-			has_variable = house_saxe_coburg_gotha
+			var:dynasty_var ?= flag:house_saxe_coburg_gotha
 			has_culture = cu:british
 		}
 		any_country_in_europe = {
@@ -33,7 +33,7 @@
 			text = hm_british_windsor_name_change_tt.2
 			every_scope_character = {
 				limit = {
-					has_variable = house_saxe_coburg_gotha
+					var:dynasty_var ?= flag:house_saxe_coburg_gotha
 					has_culture = cu:british
 				}
 				set_last_name = Windsor
@@ -55,7 +55,7 @@ hm_house_of_belgium_name_change = {
 		country_has_non_monarchy_law = no
 		ruler ?= {
 			is_monarch = yes
-			has_variable = house_saxe_coburg_gotha
+			var:dynasty_var ?= flag:house_saxe_coburg_gotha
 			has_culture = cu:wallonian
 		}
 		any_country_in_europe = {
@@ -83,7 +83,7 @@ hm_house_of_belgium_name_change = {
 			text = hm_house_of_belgium_name_change_tt.2
 			every_scope_character = {
 				limit = {
-					has_variable = house_saxe_coburg_gotha
+					var:dynasty_var ?= flag:house_saxe_coburg_gotha
 					has_culture = cu:wallonian
 				}
 				set_last_name = de_Belgique

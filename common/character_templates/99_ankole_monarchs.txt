@@ -44,8 +44,8 @@ ANK_ntare_v_nkole = {
 }
 
 ANK_kahaya_ii_nkole = {
-	# Ntare V
-	first_name = Ntare
+	# Kahaya II
+	first_name = Kahaya
 	last_name = Bahinda
 	historical = yes
 	culture = primary_culture
