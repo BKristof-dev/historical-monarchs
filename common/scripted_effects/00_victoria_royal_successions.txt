@@ -301,7 +301,7 @@ character_france_ruler_succession_chain_effect = {
 	### Legitimists
 	if ={
 		limit = {
-			has_variable = legitimist_leader
+			var:dynasty_var ?= flag:house_bourbon
 		}
 		character_generate_legitimist_france_heir = yes
 	}
@@ -991,7 +991,6 @@ character_japan_imperial_succession_chain_effect = {
 					limit = {
 						has_law = law_type:law_bakufu
 					}
-					set_variable = heir_komei_spawned
 					create_character = {
 						template = JAP_komei_yamato
 						on_created = {
@@ -1033,7 +1032,6 @@ character_japan_imperial_succession_chain_effect = {
 					limit = {
 						has_law = law_type:law_bakufu
 					}
-					set_variable = heir_meiji_spawned
 					create_character = {
 						template = JAP_meiji_yamato
 						on_created = {
@@ -1068,7 +1066,6 @@ character_japan_imperial_succession_chain_effect = {
 					limit = {
 						has_law = law_type:law_bakufu
 					}
-					set_variable = heir_taisho_spawned
 					create_character = {
 						template = JAP_taisho_yamato
 						on_created = {
@@ -1102,7 +1099,6 @@ character_japan_imperial_succession_chain_effect = {
 					limit = {
 						has_law = law_type:law_bakufu
 					}
-					set_variable = heir_showa_spawned
 					create_character = {
 						template = JAP_showa_yamato
 						on_created = {

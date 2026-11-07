@@ -1098,7 +1098,7 @@ gov_hm_crown_land_namiestnik = {
 	transfer_of_power = dictatorial
 
 	male_ruler = "RULER_TITLE_NAMIESTNIK"
-	female_ruler = "RULER_TITLE_NAMIESTNICA"
+	female_ruler = "RULER_TITLE_NAMIESTNIK"
 
 	possible = {
 		is_subject_type = subject_type_crown_land
