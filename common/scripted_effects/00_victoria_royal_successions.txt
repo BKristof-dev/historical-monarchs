@@ -301,7 +301,7 @@ character_france_ruler_succession_chain_effect = {
 	### Legitimists
 	if ={
 		limit = {
-			var:dynasty_var ?= flag:house_bourbon
+			has_variable = legitimist_leader
 		}
 		character_generate_legitimist_france_heir = yes
 	}
