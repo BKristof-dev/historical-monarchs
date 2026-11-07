@@ -10,7 +10,7 @@
  setting_use_chinese_era_name: "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_use_chinese_era_name_desc Девиз правления#!#!"
  setting_use_chinese_era_name_desc: "Имя китайского [Concept('concept_ruler','императора')] после восшествия на престол изменится на имя его эпохи (царское имя)"
  setting_use_chinese_personal_name: "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_use_chinese_personal_name_desc Имя при рождении#!#!"
- setting_use_chinese_personal_name_desc: "Имя китайского [Concept('concept_ruler','$императора$')] останется его личным именем после восшествия на престол"
+ setting_use_chinese_personal_name_desc: "Имя китайского [Concept('concept_ruler','$императора|q$')] останется его личным именем после восшествия на престол"
  rule_hm_korean_era_names: "Имя корейского монарха"
  setting_use_korean_era_name: "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_use_korean_era_name_desc Девиз правления#!#!"
  setting_use_korean_era_name_desc: "Имя корейского [Concept('concept_ruler','монарха')] после восшествия на престол изменится на имя его эпохи (царское имя)"
