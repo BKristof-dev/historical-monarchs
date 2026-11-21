@@ -221,6 +221,10 @@ regency.2 = {
 				has_trait = cancer
 				has_trait = senile
 			}
+			OR = {
+				NOT = { has_template = chi_cixi_template }
+				age >= 72
+			}
 		}
 	}
 
@@ -438,8 +442,16 @@ regency.3 = {
 		has_gov_regency = yes
 		heir ?= {
 			is_adult = yes
-			NOT = {
-				has_variable = lifetime_regency
+		}
+		OR = {
+			heir ?= {
+				NOT = {
+					has_variable = lifetime_regency
+				}
+			}
+			AND = {
+				heir ?= { has_template = CHI_tongzhi }
+				ruler ?= { NOT = { has_template = chi_cixi_template } }
 			}
 		}
 	}

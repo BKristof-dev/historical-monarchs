@@ -2863,7 +2863,10 @@ character_china_ruler_succession_chain_effect = {
 				}
 			}
 		}
-		else = {
+		else_if = {
+			limit = {
+				has_dlc_feature = ep1_content
+			}
 			owner ?= {
 				set_variable = { name = hide_ruler_change_notification days = 3 }
 				add_modifier = modifier_regency
@@ -2926,7 +2929,10 @@ character_china_ruler_succession_chain_effect = {
 				}
 			}
 		}
-		else = {
+		else_if = {
+			limit = {
+				has_dlc_feature = ep1_content
+			}
 			owner ?= {
 				set_variable = { name = hide_ruler_change_notification days = 3 }
 				add_modifier = modifier_regency
